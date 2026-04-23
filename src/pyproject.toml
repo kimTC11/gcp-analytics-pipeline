@@ -1,0 +1,16 @@
+[project]
+name = "ip-location-processor"
+version = "0.1.0"
+description = "IP Location Processing using ip2location and MongoDB"
+requires-python = ">=3.8"
+dependencies = [
+    "ip2location",
+    "pymongo",
+    "python-dotenv",
+    "requests",
+    "beautifulsoup4",
+]
+
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"

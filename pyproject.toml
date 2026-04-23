@@ -1,0 +1,12 @@
+[project]
+name = "prj5-gcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "ip2location>=8.11.0",
+    "pymongo>=4.17.0",
+    "requests>=2.33.1",
+]

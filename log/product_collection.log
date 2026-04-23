@@ -1,0 +1,297 @@
+[2026-04-22 13:32:37] ================================================================================
+[2026-04-22 13:32:38] TASK 6: Product Information Collection
+[2026-04-22 13:32:38] ================================================================================
+[2026-04-22 13:32:38] 
+[2026-04-22 13:32:38] ⚠️  This task extracts product data from 41.4M event records
+[2026-04-22 13:32:38] ⏱️  EXPECTED DURATION: 1-2 hours depending on system resources
+[2026-04-22 13:32:38] 
+[2026-04-22 13:32:38] Configuration:
+[2026-04-22 13:32:38]   MongoDB URI: mongodb://localhost:27017
+[2026-04-22 13:32:38]   Database: countly
+[2026-04-22 13:32:38]   Source Collection: summary
+[2026-04-22 13:32:38]   Output JSON: /home/tuancuong112504/prj5-gcp/output/products.json
+[2026-04-22 13:32:38]   Output CSV: /home/tuancuong112504/prj5-gcp/output/products.csv
+[2026-04-22 13:32:38] 
+[2026-04-22 13:32:38] [1] Connecting to MongoDB...
+✓ Connected to MongoDB: mongodb://localhost:27017
+[2026-04-22 13:32:38] 
+[2] Processing product information...
+[2026-04-22 13:32:38]     Filtering events and extracting URLs...
+[2026-04-22 13:32:38]     Extracting product names from URLs...
+[2026-04-22 13:32:38] 
+
+Extracting product data from 'summary' collection...
+Event types: view_product_detail, product_detail_recommendation_visible, add_to_cart_action, product_view_all_recommend_clicked, select_product_option, select_product_option_quality, product_detail_recommendation_noticed
+
+  Progress: 100,000 records processed | 6,939 unique products found
+  Progress: 200,000 records processed | 9,383 unique products found
+  Progress: 300,000 records processed | 10,795 unique products found
+  Progress: 400,000 records processed | 11,634 unique products found
+  Progress: 500,000 records processed | 12,497 unique products found
+  Progress: 600,000 records processed | 13,149 unique products found
+  Progress: 700,000 records processed | 13,704 unique products found
+  Progress: 800,000 records processed | 14,209 unique products found
+  Progress: 900,000 records processed | 14,479 unique products found
+  Progress: 1,000,000 records processed | 15,046 unique products found
+  Progress: 1,100,000 records processed | 15,359 unique products found
+  Progress: 1,200,000 records processed | 15,635 unique products found
+  Progress: 1,300,000 records processed | 15,952 unique products found
+  Progress: 1,400,000 records processed | 16,335 unique products found
+  Progress: 1,500,000 records processed | 16,554 unique products found
+  Progress: 1,600,000 records processed | 16,753 unique products found
+  Progress: 1,700,000 records processed | 16,945 unique products found
+  Progress: 1,800,000 records processed | 17,052 unique products found
+  Progress: 1,900,000 records processed | 17,254 unique products found
+  Progress: 2,000,000 records processed | 17,383 unique products found
+  Progress: 2,100,000 records processed | 17,510 unique products found
+  Progress: 2,200,000 records processed | 17,636 unique products found
+  Progress: 2,300,000 records processed | 17,748 unique products found
+  Progress: 2,400,000 records processed | 17,818 unique products found
+  Progress: 2,500,000 records processed | 17,912 unique products found
+  Progress: 2,600,000 records processed | 17,978 unique products found
+  Progress: 2,700,000 records processed | 18,050 unique products found
+  Progress: 2,800,000 records processed | 18,113 unique products found
+  Progress: 2,900,000 records processed | 18,174 unique products found
+  Progress: 3,000,000 records processed | 18,229 unique products found
+  Progress: 3,100,000 records processed | 18,306 unique products found
+  Progress: 3,200,000 records processed | 18,340 unique products found
+  Progress: 3,300,000 records processed | 18,396 unique products found
+  Progress: 3,400,000 records processed | 18,456 unique products found
+  Progress: 3,500,000 records processed | 18,491 unique products found
+  Progress: 3,600,000 records processed | 18,508 unique products found
+  Progress: 3,700,000 records processed | 18,534 unique products found
+  Progress: 3,800,000 records processed | 18,563 unique products found
+  Progress: 3,900,000 records processed | 18,601 unique products found
+  Progress: 4,000,000 records processed | 18,623 unique products found
+  Progress: 4,100,000 records processed | 18,643 unique products found
+  Progress: 4,200,000 records processed | 18,664 unique products found
+  Progress: 4,300,000 records processed | 18,684 unique products found
+  Progress: 4,400,000 records processed | 18,724 unique products found
+  Progress: 4,500,000 records processed | 18,746 unique products found
+  Progress: 4,600,000 records processed | 18,760 unique products found
+  Progress: 4,700,000 records processed | 18,776 unique products found
+  Progress: 4,800,000 records processed | 18,790 unique products found
+  Progress: 4,900,000 records processed | 18,814 unique products found
+  Progress: 5,000,000 records processed | 18,826 unique products found
+  Progress: 5,100,000 records processed | 18,841 unique products found
+  Progress: 5,200,000 records processed | 18,852 unique products found
+  Progress: 5,300,000 records processed | 18,861 unique products found
+  Progress: 5,400,000 records processed | 18,875 unique products found
+  Progress: 5,500,000 records processed | 18,886 unique products found
+  Progress: 5,600,000 records processed | 18,896 unique products found
+  Progress: 5,700,000 records processed | 18,909 unique products found
+  Progress: 5,800,000 records processed | 18,919 unique products found
+  Progress: 5,900,000 records processed | 18,926 unique products found
+  Progress: 6,000,000 records processed | 18,939 unique products found
+  Progress: 6,100,000 records processed | 18,950 unique products found
+  Progress: 6,200,000 records processed | 18,958 unique products found
+  Progress: 6,300,000 records processed | 18,967 unique products found
+  Progress: 6,400,000 records processed | 18,971 unique products found
+  Progress: 6,500,000 records processed | 18,973 unique products found
+  Progress: 6,600,000 records processed | 18,978 unique products found
+  Progress: 6,700,000 records processed | 18,983 unique products found
+  Progress: 6,800,000 records processed | 18,989 unique products found
+  Progress: 6,900,000 records processed | 18,994 unique products found
+  Progress: 7,000,000 records processed | 19,002 unique products found
+  Progress: 7,100,000 records processed | 19,006 unique products found
+  Progress: 7,200,000 records processed | 19,011 unique products found
+  Progress: 7,300,000 records processed | 19,017 unique products found
+  Progress: 7,400,000 records processed | 19,021 unique products found
+  Progress: 7,500,000 records processed | 19,026 unique products found
+  Progress: 7,600,000 records processed | 19,034 unique products found
+  Progress: 7,700,000 records processed | 19,039 unique products found
+  Progress: 7,800,000 records processed | 19,042 unique products found
+  Progress: 7,900,000 records processed | 19,050 unique products found
+  Progress: 8,000,000 records processed | 19,057 unique products found
+  Progress: 8,100,000 records processed | 19,061 unique products found
+  Progress: 8,200,000 records processed | 19,065 unique products found
+  Progress: 8,300,000 records processed | 19,067 unique products found
+  Progress: 8,400,000 records processed | 19,072 unique products found
+  Progress: 8,500,000 records processed | 19,075 unique products found
+  Progress: 8,600,000 records processed | 19,080 unique products found
+  Progress: 8,700,000 records processed | 19,086 unique products found
+  Progress: 8,800,000 records processed | 19,088 unique products found
+  Progress: 8,900,000 records processed | 19,092 unique products found
+  Progress: 9,000,000 records processed | 19,099 unique products found
+  Progress: 9,100,000 records processed | 19,100 unique products found
+  Progress: 9,200,000 records processed | 19,101 unique products found
+  Progress: 9,300,000 records processed | 19,105 unique products found
+  Progress: 9,400,000 records processed | 19,110 unique products found
+  Progress: 9,500,000 records processed | 19,110 unique products found
+  Progress: 9,600,000 records processed | 19,111 unique products found
+  Progress: 9,700,000 records processed | 19,113 unique products found
+  Progress: 9,800,000 records processed | 19,114 unique products found
+  Progress: 9,900,000 records processed | 19,116 unique products found
+  Progress: 10,000,000 records processed | 19,121 unique products found
+  Progress: 10,100,000 records processed | 19,127 unique products found
+  Progress: 10,200,000 records processed | 19,136 unique products found
+  Progress: 10,300,000 records processed | 19,139 unique products found
+  Progress: 10,400,000 records processed | 19,144 unique products found
+  Progress: 10,500,000 records processed | 19,150 unique products found
+  Progress: 10,600,000 records processed | 19,153 unique products found
+  Progress: 10,700,000 records processed | 19,154 unique products found
+  Progress: 10,800,000 records processed | 19,160 unique products found
+  Progress: 10,900,000 records processed | 19,166 unique products found
+  Progress: 11,000,000 records processed | 19,170 unique products found
+  Progress: 11,100,000 records processed | 19,171 unique products found
+  Progress: 11,200,000 records processed | 19,175 unique products found
+  Progress: 11,300,000 records processed | 19,178 unique products found
+  Progress: 11,400,000 records processed | 19,181 unique products found
+  Progress: 11,500,000 records processed | 19,182 unique products found
+  Progress: 11,600,000 records processed | 19,186 unique products found
+  Progress: 11,700,000 records processed | 19,189 unique products found
+  Progress: 11,800,000 records processed | 19,192 unique products found
+  Progress: 11,900,000 records processed | 19,194 unique products found
+  Progress: 12,000,000 records processed | 19,194 unique products found
+  Progress: 12,100,000 records processed | 19,195 unique products found
+  Progress: 12,200,000 records processed | 19,195 unique products found
+  Progress: 12,300,000 records processed | 19,201 unique products found
+  Progress: 12,400,000 records processed | 19,204 unique products found
+  Progress: 12,500,000 records processed | 19,204 unique products found
+  Progress: 12,600,000 records processed | 19,208 unique products found
+  Progress: 12,700,000 records processed | 19,211 unique products found
+  Progress: 12,800,000 records processed | 19,212 unique products found
+  Progress: 12,900,000 records processed | 19,213 unique products found
+  Progress: 13,000,000 records processed | 19,216 unique products found
+  Progress: 13,100,000 records processed | 19,218 unique products found
+  Progress: 13,200,000 records processed | 19,221 unique products found
+  Progress: 13,300,000 records processed | 19,225 unique products found
+  Progress: 13,400,000 records processed | 19,227 unique products found
+  Progress: 13,500,000 records processed | 19,229 unique products found
+  Progress: 13,600,000 records processed | 19,233 unique products found
+  Progress: 13,700,000 records processed | 19,234 unique products found
+  Progress: 13,800,000 records processed | 19,236 unique products found
+  Progress: 13,900,000 records processed | 19,237 unique products found
+  Progress: 14,000,000 records processed | 19,241 unique products found
+  Progress: 14,100,000 records processed | 19,244 unique products found
+  Progress: 14,200,000 records processed | 19,248 unique products found
+  Progress: 14,300,000 records processed | 19,251 unique products found
+  Progress: 14,400,000 records processed | 19,255 unique products found
+  Progress: 14,500,000 records processed | 19,260 unique products found
+  Progress: 14,600,000 records processed | 19,263 unique products found
+  Progress: 14,700,000 records processed | 19,266 unique products found
+  Progress: 14,800,000 records processed | 19,267 unique products found
+  Progress: 14,900,000 records processed | 19,269 unique products found
+  Progress: 15,000,000 records processed | 19,269 unique products found
+  Progress: 15,100,000 records processed | 19,270 unique products found
+  Progress: 15,200,000 records processed | 19,271 unique products found
+  Progress: 15,300,000 records processed | 19,273 unique products found
+  Progress: 15,400,000 records processed | 19,275 unique products found
+  Progress: 15,500,000 records processed | 19,275 unique products found
+  Progress: 15,600,000 records processed | 19,279 unique products found
+  Progress: 15,700,000 records processed | 19,280 unique products found
+  Progress: 15,800,000 records processed | 19,282 unique products found
+  Progress: 15,900,000 records processed | 19,282 unique products found
+  Progress: 16,000,000 records processed | 19,283 unique products found
+  Progress: 16,100,000 records processed | 19,286 unique products found
+  Progress: 16,200,000 records processed | 19,287 unique products found
+  Progress: 16,300,000 records processed | 19,288 unique products found
+  Progress: 16,400,000 records processed | 19,292 unique products found
+  Progress: 16,500,000 records processed | 19,294 unique products found
+  Progress: 16,600,000 records processed | 19,296 unique products found
+  Progress: 16,700,000 records processed | 19,298 unique products found
+  Progress: 16,800,000 records processed | 19,302 unique products found
+  Progress: 16,900,000 records processed | 19,305 unique products found
+  Progress: 17,000,000 records processed | 19,306 unique products found
+  Progress: 17,100,000 records processed | 19,307 unique products found
+  Progress: 17,200,000 records processed | 19,312 unique products found
+  Progress: 17,300,000 records processed | 19,312 unique products found
+  Progress: 17,400,000 records processed | 19,315 unique products found
+  Progress: 17,500,000 records processed | 19,315 unique products found
+  Progress: 17,600,000 records processed | 19,316 unique products found
+  Progress: 17,700,000 records processed | 19,323 unique products found
+  Progress: 17,800,000 records processed | 19,323 unique products found
+  Progress: 17,900,000 records processed | 19,327 unique products found
+  Progress: 18,000,000 records processed | 19,330 unique products found
+  Progress: 18,100,000 records processed | 19,333 unique products found
+  Progress: 18,200,000 records processed | 19,333 unique products found
+  Progress: 18,300,000 records processed | 19,335 unique products found
+  Progress: 18,400,000 records processed | 19,335 unique products found
+  Progress: 18,500,000 records processed | 19,335 unique products found
+  Progress: 18,600,000 records processed | 19,339 unique products found
+  Progress: 18,700,000 records processed | 19,341 unique products found
+  Progress: 18,800,000 records processed | 19,343 unique products found
+  Progress: 18,900,000 records processed | 19,344 unique products found
+  Progress: 19,000,000 records processed | 19,346 unique products found
+  Progress: 19,100,000 records processed | 19,348 unique products found
+  Progress: 19,200,000 records processed | 19,350 unique products found
+  Progress: 19,300,000 records processed | 19,355 unique products found
+  Progress: 19,400,000 records processed | 19,357 unique products found
+  Progress: 19,500,000 records processed | 19,363 unique products found
+  Progress: 19,600,000 records processed | 19,363 unique products found
+  Progress: 19,700,000 records processed | 19,364 unique products found
+  Progress: 19,800,000 records processed | 19,365 unique products found
+  Progress: 19,900,000 records processed | 19,366 unique products found
+  Progress: 20,000,000 records processed | 19,367 unique products found
+  Progress: 20,100,000 records processed | 19,370 unique products found
+  Progress: 20,200,000 records processed | 19,370 unique products found
+  Progress: 20,300,000 records processed | 19,370 unique products found
+  Progress: 20,400,000 records processed | 19,372 unique products found
+  Progress: 20,500,000 records processed | 19,375 unique products found
+  Progress: 20,600,000 records processed | 19,377 unique products found
+  Progress: 20,700,000 records processed | 19,379 unique products found
+  Progress: 20,800,000 records processed | 19,382 unique products found
+  Progress: 20,900,000 records processed | 19,382 unique products found
+  Progress: 21,000,000 records processed | 19,382 unique products found
+  Progress: 21,100,000 records processed | 19,383 unique products found
+  Progress: 21,200,000 records processed | 19,383 unique products found
+  Progress: 21,300,000 records processed | 19,383 unique products found
+  Progress: 21,400,000 records processed | 19,383 unique products found
+  Progress: 21,500,000 records processed | 19,384 unique products found
+  Progress: 21,600,000 records processed | 19,386 unique products found
+  Progress: 21,700,000 records processed | 19,389 unique products found
+  Progress: 21,800,000 records processed | 19,389 unique products found
+  Progress: 21,900,000 records processed | 19,391 unique products found
+  Progress: 22,000,000 records processed | 19,392 unique products found
+  Progress: 22,100,000 records processed | 19,392 unique products found
+  Progress: 22,200,000 records processed | 19,395 unique products found
+  Progress: 22,300,000 records processed | 19,396 unique products found
+  Progress: 22,400,000 records processed | 19,399 unique products found
+  Progress: 22,500,000 records processed | 19,400 unique products found
+  Progress: 22,600,000 records processed | 19,401 unique products found
+  Progress: 22,700,000 records processed | 19,401 unique products found
+  Progress: 22,800,000 records processed | 19,403 unique products found
+  Progress: 22,900,000 records processed | 19,404 unique products found
+  Progress: 23,000,000 records processed | 19,405 unique products found
+  Progress: 23,100,000 records processed | 19,405 unique products found
+  Progress: 23,200,000 records processed | 19,406 unique products found
+  Progress: 23,300,000 records processed | 19,407 unique products found
+  Progress: 23,400,000 records processed | 19,410 unique products found
+  Progress: 23,500,000 records processed | 19,410 unique products found
+  Progress: 23,600,000 records processed | 19,411 unique products found
+  Progress: 23,700,000 records processed | 19,413 unique products found
+  Progress: 23,800,000 records processed | 19,414 unique products found
+  Progress: 23,900,000 records processed | 19,417 unique products found
+  Progress: 24,000,000 records processed | 19,417 unique products found
+
+✓ Extraction complete:
+  Total records processed: 24,018,319
+  Unique products found: 19,417
+
+Extracting product names from URLs...
+
+✓ Name extraction complete:
+  Successfully extracted: 19,417
+  Failed to extract: 0
+✓ JSON file saved: /home/tuancuong112504/prj5-gcp/output/products.json
+✓ CSV file saved: /home/tuancuong112504/prj5-gcp/output/products.csv
+[2026-04-22 13:42:24] 
+[2026-04-22 13:42:24] ================================================================================
+[2026-04-22 13:42:24] ✅ PROCESSING COMPLETE
+[2026-04-22 13:42:24] ================================================================================
+[2026-04-22 13:42:24] Status: completed
+[2026-04-22 13:42:24] Total products extracted: 19,417
+[2026-04-22 13:42:24]   ✓ With product name: 19,417
+[2026-04-22 13:42:24]   ✗ Without product name: 0
+[2026-04-22 13:42:24] 
+Output files:
+[2026-04-22 13:42:24]   JSON: /home/tuancuong112504/prj5-gcp/output/products.json
+[2026-04-22 13:42:24]   CSV: /home/tuancuong112504/prj5-gcp/output/products.csv
+[2026-04-22 13:42:24] 
+Processed at: 2026-04-22T13:42:24.304482
+[2026-04-22 13:42:24] 
+⏱️  Timing:
+[2026-04-22 13:42:24]   Processing Duration: 9.8 minutes (0.16 hours)
+[2026-04-22 13:42:24]   Total Duration: 9.8 minutes (0.16 hours)
+[2026-04-22 13:42:24] ================================================================================
+✓ MongoDB connection closed
