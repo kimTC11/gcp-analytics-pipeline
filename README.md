@@ -22,9 +22,17 @@ This project implements a complete data processing pipeline with three main deli
 - **Outputs**: JSON (50+ MB) + CSV (2+ MB) formats
 - **Status**: Successful | **Consolidation**: 99.1% valid names
 
-### ✅ Task 7: Documentation & Testing - COMPLETED
+### ✅ Task 7: React Data Extraction (Web Crawling) - COMPLETED
+- **Crawls**: 19,417 product detail pages from Glamira
+- **Success Rate**: 97.7% (18,969 succeeded, 448 failed)
+- **Outputs**: 195 CSV files (5.8 MB) with extracted product data
+- **Duration**: ~25 minutes | **Retry Logic**: 3+3 attempts with fallback URLs
+- **Extracted Fields**: name, sku, price, product_type, gender, collection, currency, discounts
+
+### ✅ Task 8: Documentation & Testing - COMPLETED
 - **Setup Guide**: Complete installation instructions
 - **Data Structure**: Detailed schema & field definitions
+- **Execution Guides**: Step-by-step for all 7 tasks
 - **Data Quality**: Automated verification & testing tools
 - **Status**: Complete
 
@@ -62,18 +70,30 @@ prj5-gcp/
 │   │   └── product_collector.py        # Task 6: Product extraction
 │   ├── runners/
 │   │   ├── run_ip_processing.py        # Task 5 main script
-│   │   └── run_product_collection.py   # Task 6 main script
-│   ├── test/
-│   │   └── test_scrape.py              # Product consolidation test
+│   │   ├── run_product_collection.py   # Task 6 main script
+│   │   └── run_full_crawl.py           # Task 7: Web crawling
+│   ├── scripts/
+│   │   ├── monitor_*.sh                # Monitoring scripts
+│   │   └── run_*_nohup.sh             # Background execution
 │   └── utils/
-│       └── data_quality_report.py      # Task 7: Data verification
-├── output/                              # Output files
-│   ├── products.csv                    # 19,417 products
-│   ├── products.json                   # Product details (JSON)
-│   └── checkpoint_*.json               # Processing checkpoints
-├── log/                                 # Processing logs
-│   └── ip_locations.csv                # Enriched IP data
-├── docs/                                # Additional documentation
+│       ├── data_quality_report.py      # Task 8: Data verification
+│       └── verify_data_quality.py      # Quality checks
+├── output/                              # Task 5-6 outputs
+│   ├── products.csv                    # 19,417 products (Task 6)
+│   ├── products.json                   # Product details (Task 6)
+│   └── ip_locations.csv                # Enriched IP data (Task 5)
+├── output_crawl/                        # Task 7 outputs
+│   ├── react_batch_part_*.csv          # 195 success files (18,969 records)
+│   └── react_batch_error_part_*.csv    # 86 error files (448 records)
+├── logs/                                # Execution logs
+│   ├── crawl.log                       # Task 7 web crawl log
+│   ├── product_collection.log          # Task 6 log
+│   └── ip_processing.log               # Task 5 log
+├── docs/                                # Execution guides
+│   ├── TASK5_EXECUTION_GUIDE.md        # IP location processing
+│   ├── TASK6_EXECUTION_GUIDE.md        # Product collection
+│   ├── TASK7_EXECUTION_GUIDE.md        # Web crawling (React data)
+│   └── README.md
 ├── SETUP_INSTRUCTIONS.md               # Complete setup guide
 ├── DATA_STRUCTURE.md                   # Data format reference
 └── README.md                           # This file
@@ -83,21 +103,42 @@ prj5-gcp/
 
 ## 📊 Data Summary
 
-### IP Location Data
+### Task 5: IP Location Data
 ```
 Unique IPs: 3,239,628
 Countries: 195+
-Output: ip_locations.csv (150-200 MB)
+Output: output/ip_locations.csv (150-200 MB)
 Fields: ip, country, region, city, latitude, longitude, isp, count, first/last_seen
+Status: ✅ Complete
 ```
 
-### Product Data
+### Task 6: Product Information
 ```
 Unique Products: 19,417
 Valid Names: 19,241 (99.1%)
-Output: products.csv (2 MB) + products.json (50 MB)
+Output: output/products.csv (2 MB) + products.json (50 MB)
 Fields: product_id, product_name, url, event_type, timestamp
+Status: ✅ Complete
 ```
+
+### Task 7: React Data (Web Crawled)
+```
+Crawled Products: 18,969 (97.7% success)
+Failed Products: 448 (2.3%)
+Output: output_crawl/ (5.8 MB across 281 files)
+Fields: product_id, name, sku, price, product_type, gender, collection, discount-value
+Success Files: 195 CSV files (100 records each)
+Error Files: 86 CSV files (with error details)
+Status: ✅ Complete
+```
+
+---
+
+## 🔗 Execution Guides
+
+- [Task 5: IP Location Processing](docs/TASK5_EXECUTION_GUIDE.md)
+- [Task 6: Product Collection](docs/TASK6_EXECUTION_GUIDE.md)
+- [Task 7: React Data Extraction](docs/TASK7_EXECUTION_GUIDE.md)
 
 ---
 

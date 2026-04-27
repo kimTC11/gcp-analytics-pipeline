@@ -1,5 +1,5 @@
 {
-  "extraction_timestamp": "2026-04-22T16:40:21.176442",
+  "extraction_timestamp": "2026-04-23T16:46:54.608632",
   "window_initial_state": null,
   "window_data": null,
   "react_data": {
@@ -523,8 +523,8 @@
           {
             "option_id": "323846",
             "part_type": "stone1",
-            "sku": "yellow-sapphire",
-            "value": "2752100"
+            "sku": "topaz-Blue",
+            "value": "2752090"
           },
           {
             "option_id": "323850",
@@ -540,7 +540,7 @@
             "optional": true
           }
         ],
-        "skus": "323846-yellow-sapphire323850-blackdiamond"
+        "skus": "323846-topaz-Blue323850-blackdiamond"
       }
     ],
     "associate": [],
@@ -594,10 +594,10 @@
       },
       "round_precision": 2,
       "retail_info": "Acest preț este cu până la <span>55%</span> mai mic în comparație cu magazinele de bijuterii tradiționale.",
-      "full_price": 40716,
-      "full_price_format": "40.716 RON",
-      "sale_price": "34608.60",
-      "sale_price_format": "34.609 RON",
+      "full_price": 42104,
+      "full_price_format": "42.104 RON",
+      "sale_price": "35788.40",
+      "sale_price_format": "35.788 RON",
       "weeeAmount": 0,
       "weeeShowInclDesc": false,
       "weeeShowExclDesc": false,
@@ -42411,11 +42411,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/1/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
           "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 1"
         },
         {
@@ -42430,11 +42430,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
           "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 2"
         },
         {
@@ -42449,11 +42449,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
           "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 3"
         },
         {
@@ -42468,11 +42468,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
           "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 4"
         },
         {
@@ -42487,11 +42487,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220"
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220"
         },
         {
           "position": 6,
@@ -42505,11 +42505,11 @@
           "watermark": null,
           "is_video": null,
           "meta": null,
-          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220"
+          "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+          "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+          "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+          "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220"
         },
         {
           "position": null,
@@ -42743,7 +42743,7 @@
         "url": "https://www.glamira.ro/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://cdn.glamira.com/static/version177684489169/frontend/Opentechiz/glamira/ro_RO/images/logo.svg"
+          "url": "https://cdn.glamira.com/static/version177684489172/frontend/Opentechiz/glamira/ro_RO/images/logo.svg"
         }
       },
       "mainEntity": {
@@ -42775,7 +42775,7 @@
           "priceCurrency": "RON",
           "availability": "https://schema.org/InStock",
           "itemCondition": "https://schema.org/NewCondition",
-          "priceValidUntil": "2027-04-22",
+          "priceValidUntil": "2027-04-23",
           "shippingDetails": [
             {
               "@type": "OfferShippingDetails",
@@ -42972,7 +42972,7 @@
       "data_type": "dict",
       "size": 138,
       "full_data": {
-        "Magento_Ui/js/block-loader": "https://cdn.glamira.com/static/version177684489169/frontend/Opentechiz/glamira/ro_RO/images/loader-2.gif"
+        "Magento_Ui/js/block-loader": "https://cdn.glamira.com/static/version177684489172/frontend/Opentechiz/glamira/ro_RO/images/loader-2.gif"
       }
     },
     {
@@ -43830,7 +43830,7 @@
         "hightlight": null,
         "content": "inele-home/",
         "node_url": null,
-        "children_count": "29",
+        "children_count": "30",
         "active_link": "",
         "classes": "column_1 for_jewelry_rings image-cate parent_menu_link has_line",
         "submenu_classes": null,
@@ -43859,7 +43859,7 @@
         "hightlight": null,
         "content": "coliere-home/",
         "node_url": null,
-        "children_count": "26",
+        "children_count": "27",
         "active_link": "",
         "classes": "column_1 for_jewelry_necklaces image-cate has_line",
         "submenu_classes": null,
@@ -43888,7 +43888,7 @@
         "hightlight": null,
         "content": "cercei-home/",
         "node_url": null,
-        "children_count": "21",
+        "children_count": "22",
         "active_link": "",
         "classes": "column_2 for_jewelry_earrings image-cate has_line",
         "submenu_classes": null,
@@ -43917,7 +43917,7 @@
         "hightlight": null,
         "content": "bracelets-for-women/",
         "node_url": null,
-        "children_count": "17",
+        "children_count": "18",
         "active_link": "",
         "classes": "column_2 for_jewelry_bangles image-cate has_line",
         "submenu_classes": null,
@@ -54750,7 +54750,7 @@
     {
       "script_index": 93,
       "data_type": "dict",
-      "size": 1330,
+      "size": 1325,
       "full_data": {
         "position": 2,
         "media_type": "image",
@@ -54763,18 +54763,18 @@
         "watermark": null,
         "is_video": null,
         "meta": null,
-        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
         "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 2"
       }
     },
     {
       "script_index": 93,
       "data_type": "dict",
-      "size": 1330,
+      "size": 1325,
       "full_data": {
         "position": 3,
         "media_type": "image",
@@ -54787,18 +54787,18 @@
         "watermark": null,
         "is_video": null,
         "meta": null,
-        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/3/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
         "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 3"
       }
     },
     {
       "script_index": 93,
       "data_type": "dict",
-      "size": 1330,
+      "size": 1325,
       "full_data": {
         "position": 4,
         "media_type": "image",
@@ -54811,18 +54811,18 @@
         "watermark": null,
         "is_video": null,
         "meta": null,
-        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
+        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/4/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
         "placeholder_alt": "ALLOY_TITLE Pernă STONE_TITLE Inel de Logodnă Orva view 4"
       }
     },
     {
       "script_index": 93,
       "data_type": "dict",
-      "size": 1236,
+      "size": 1231,
       "full_data": {
         "position": 5,
         "media_type": "image",
@@ -54835,17 +54835,17 @@
         "watermark": null,
         "is_video": null,
         "meta": null,
-        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220"
+        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/5/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220"
       }
     },
     {
       "script_index": 93,
       "data_type": "dict",
-      "size": 1236,
+      "size": 1231,
       "full_data": {
         "position": 6,
         "media_type": "image",
@@ -54858,11 +54858,11 @@
         "watermark": null,
         "is_video": null,
         "meta": null,
-        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg",
-        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=516&height=516",
-        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220",
-        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-Brillant_AAA/alloycolour/yellow.jpg?width=220&height=220"
+        "large_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg",
+        "medium_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "medium_middle_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=516&height=516",
+        "small_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220",
+        "sticky_image_url": "https://cdn-media.glamira.com/media/product/newgeneration/view/6/sku/orva-layer1/diamond/diamond-Brillant_AAA/stone2/diamond-sapphire_AAA/alloycolour/white.jpg?width=220&height=220"
       }
     },
     {
