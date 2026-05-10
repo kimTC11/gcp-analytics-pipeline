@@ -1,0 +1,54 @@
+2026-05-10 06:54:30,978 - utils.gcs_to_bigquery_fixed - INFO - ✓ Loaded BigQuery schema from /home/tuancuong112504/prj5-gcp/src/runners/../utils/../../output/bigquery_schema.json
+2026-05-10 06:54:32,806 - utils.gcs_to_bigquery_fixed - INFO - ✓ Connected to GCP project: codealong-bq-491909
+2026-05-10 06:54:32,807 - __main__ - INFO - ================================================================================
+2026-05-10 06:54:32,807 - __main__ - INFO - GCS to BigQuery Load Runner - summary_clean.jsonl
+2026-05-10 06:54:32,807 - __main__ - INFO - ================================================================================
+2026-05-10 06:54:32,807 - __main__ - INFO - Log file: /home/tuancuong112504/prj5-gcp/log/load_summary_clean_20260510_065430.log
+2026-05-10 06:54:32,807 - __main__ - INFO - 
+2026-05-10 06:54:32,807 - __main__ - INFO - 
+🚀 Starting load process...
+2026-05-10 06:54:32,807 - __main__ - INFO - Configuration:
+2026-05-10 06:54:32,807 - __main__ - INFO -   Bucket: mongodb-0001
+2026-05-10 06:54:32,808 - __main__ - INFO -   File: real-data/extracted/summary_clean.jsonl
+2026-05-10 06:54:32,808 - __main__ - INFO -   Dataset: MongoDB_001
+2026-05-10 06:54:32,808 - __main__ - INFO -   Table: summary_clean
+2026-05-10 06:54:32,808 - __main__ - INFO - 
+📂 Checking dataset...
+2026-05-10 06:54:33,114 - __main__ - INFO - ✓ Dataset already exists: MongoDB_001
+2026-05-10 06:54:33,114 - __main__ - INFO - 
+📋 Checking table: MongoDB_001.summary_clean
+2026-05-10 06:54:33,114 - __main__ - INFO -   Schema fields: 32
+2026-05-10 06:54:33,286 - __main__ - INFO - ✓ Table ready: codealong-bq-491909.MongoDB_001.summary_clean
+2026-05-10 06:54:33,286 - __main__ - INFO - 
+📤 Starting data load...
+2026-05-10 06:54:33,286 - __main__ - INFO -   Source: gs://mongodb-0001/real-data/extracted/summary_clean.jsonl
+2026-05-10 06:54:33,286 - __main__ - INFO -   Destination: codealong-bq-491909.MongoDB_001.summary_clean
+2026-05-10 06:54:33,286 - __main__ - INFO - 
+Load job configuration:
+2026-05-10 06:54:33,287 - __main__ - INFO -   Format: NEWLINE_DELIMITED_JSON
+2026-05-10 06:54:33,287 - __main__ - INFO -   Disposition: WRITE_APPEND
+2026-05-10 06:54:33,287 - __main__ - INFO -   Allow jagged rows: True
+2026-05-10 06:54:33,287 - __main__ - INFO -   Allow quoted newlines: True
+2026-05-10 06:54:33,287 - __main__ - INFO -   Ignore unknown values: True
+2026-05-10 06:54:33,287 - __main__ - INFO -   Max bad records: 10,000,000
+2026-05-10 06:54:33,675 - __main__ - INFO - 
+⏱️  Job submitted
+2026-05-10 06:54:33,675 - __main__ - INFO -   Job ID: 50e1f72b-725d-4789-a618-244e4a7a8cf2
+2026-05-10 06:54:33,676 - __main__ - INFO -   Waiting for completion...
+2026-05-10 06:54:50,059 - __main__ - INFO - 
+✅ Load job completed successfully!
+2026-05-10 06:54:50,059 - __main__ - INFO - 
+📊 Retrieving load statistics...
+2026-05-10 06:54:50,175 - __main__ - INFO - 
+📊 Load Statistics:
+2026-05-10 06:54:50,175 - __main__ - INFO -   ✓ Rows successfully loaded: 41,285,035
+2026-05-10 06:54:50,175 - __main__ - INFO -   ✓ Table size: 20,675,472,607 bytes (19.26 GB)
+2026-05-10 06:54:50,175 - __main__ - INFO -   ✓ Location: codealong-bq-491909.MongoDB_001.summary_clean
+2026-05-10 06:54:50,176 - __main__ - INFO - 
+✅ SUCCESS: 41,285,035 records loaded to BigQuery
+2026-05-10 06:54:50,176 - __main__ - INFO - 
+================================================================================
+2026-05-10 06:54:50,176 - __main__ - INFO - ✅ Load operation completed successfully
+2026-05-10 06:54:50,176 - __main__ - INFO - ================================================================================
+2026-05-10 06:54:50,176 - __main__ - INFO - Log saved to: /home/tuancuong112504/prj5-gcp/log/load_summary_clean_20260510_065430.log
+
