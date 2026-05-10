@@ -1,0 +1,949 @@
+{
+  "_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "api_version": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products": {
+    "types": [
+      "array",
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array": {
+        "count": 92714,
+        "percentage": 20.26
+      },
+      "array_of_objects": {
+        "count": 364982,
+        "percentage": 79.74
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 457696,
+    "total_occurrences": 457696,
+    "null_percentage": 0.0,
+    "has_mixed_types": true
+  },
+  "cart_products.amount": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 114619,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 114619,
+    "total_occurrences": 114619,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.currency": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 26079,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 26079,
+    "total_occurrences": 26079,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.option": {
+    "types": [
+      "string",
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array_of_objects": {
+        "count": 342621,
+        "percentage": 93.87
+      },
+      "string": {
+        "count": 22361,
+        "percentage": 6.13
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 364982,
+    "total_occurrences": 364982,
+    "null_percentage": 0.0,
+    "has_mixed_types": true
+  },
+  "cart_products.option.option_id": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 342621,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 342621,
+    "total_occurrences": 342621,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.option.option_label": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 342621,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 342621,
+    "total_occurrences": 342621,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.option.value_id": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 342621,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 342621,
+    "total_occurrences": 342621,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.option.value_label": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 342621,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 342621,
+    "total_occurrences": 342621,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.price": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 26079,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 26079,
+    "total_occurrences": 26079,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cart_products.product_id": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 364982,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 364982,
+    "total_occurrences": 364982,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "cat_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 258,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 12042848,
+    "non_null_count": 258,
+    "total_occurrences": 12043106,
+    "null_percentage": 100.0,
+    "has_mixed_types": false
+  },
+  "collect_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 12043106,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 12043106,
+    "total_occurrences": 12043106,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "collection": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "currency": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 186590,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 1311,
+    "non_null_count": 186590,
+    "total_occurrences": 187901,
+    "null_percentage": 0.7,
+    "has_mixed_types": false
+  },
+  "current_url": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "device_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "email_address": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432076,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 397,
+    "non_null_count": 41432076,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "ip": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "is_paypal": {
+    "types": [
+      "boolean"
+    ],
+    "type_distribution": {
+      "boolean": {
+        "count": 1309,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 186592,
+    "non_null_count": 1309,
+    "total_occurrences": 187901,
+    "null_percentage": 99.3,
+    "has_mixed_types": false
+  },
+  "key_search": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 75200,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 163108,
+    "non_null_count": 75200,
+    "total_occurrences": 238308,
+    "null_percentage": 68.44,
+    "has_mixed_types": false
+  },
+  "local_time": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432233,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 240,
+    "non_null_count": 41432233,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option": {
+    "types": [
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array_of_objects": {
+        "count": 22208495,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 22208495,
+    "total_occurrences": 22208495,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.Kollektion": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.alloy": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 12092054,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 12092054,
+    "total_occurrences": 12092054,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.category id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.diamond": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 12058390,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 12058390,
+    "total_occurrences": 12058390,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.finish": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.kollektion_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.option_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 21918320,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 21918320,
+    "total_occurrences": 21918320,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.option_label": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 22098954,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 22098954,
+    "total_occurrences": 22098954,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.pearlcolor": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.price": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.quality": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 2231825,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 2231825,
+    "total_occurrences": 2231825,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.quality_label": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 1931725,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 1931725,
+    "total_occurrences": 1931725,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.shapediamond": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 12058390,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 12058390,
+    "total_occurrences": 12058390,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.stone": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33664,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 33664,
+    "total_occurrences": 33664,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.value_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 22098946,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 22098946,
+    "total_occurrences": 22098946,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "option.value_label": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 22098844,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 22098844,
+    "total_occurrences": 22098844,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "order_id": {
+    "types": [
+      "float",
+      "string",
+      "integer"
+    ],
+    "type_distribution": {
+      "float": {
+        "count": 9963,
+        "percentage": 8.69
+      },
+      "integer": {
+        "count": 16116,
+        "percentage": 14.06
+      },
+      "string": {
+        "count": 88540,
+        "percentage": 77.25
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 114619,
+    "total_occurrences": 114619,
+    "null_percentage": 0.0,
+    "has_mixed_types": true
+  },
+  "price": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 186590,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 1311,
+    "non_null_count": 186590,
+    "total_occurrences": 187901,
+    "null_percentage": 0.7,
+    "has_mixed_types": false
+  },
+  "product_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 22242720,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 22242720,
+    "total_occurrences": 22242720,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "recommendation": {
+    "types": [
+      "boolean"
+    ],
+    "type_distribution": {
+      "boolean": {
+        "count": 10944359,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 68,
+    "non_null_count": 10944359,
+    "total_occurrences": 10944427,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "recommendation_clicked_position": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 179226,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 25547,
+    "non_null_count": 179226,
+    "total_occurrences": 204773,
+    "null_percentage": 12.48,
+    "has_mixed_types": false
+  },
+  "recommendation_product_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 217700,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 25596,
+    "non_null_count": 217700,
+    "total_occurrences": 243296,
+    "null_percentage": 10.52,
+    "has_mixed_types": false
+  },
+  "recommendation_product_position": {
+    "types": [
+      "string",
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 20128,
+        "percentage": 52.32
+      },
+      "string": {
+        "count": 18344,
+        "percentage": 47.68
+      }
+    },
+    "null_count": 51,
+    "non_null_count": 38472,
+    "total_occurrences": 38523,
+    "null_percentage": 0.13,
+    "has_mixed_types": true
+  },
+  "referrer_url": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "resolution": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432233,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 240,
+    "non_null_count": 41432233,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "show_recommendation": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 33665625,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 7766848,
+    "non_null_count": 33665625,
+    "total_occurrences": 41432473,
+    "null_percentage": 18.75,
+    "has_mixed_types": false
+  },
+  "store_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "time_stamp": {
+    "types": [
+      "integer"
+    ],
+    "type_distribution": {
+      "integer": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "user_agent": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "user_id_db": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 41432473,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 41432473,
+    "total_occurrences": 41432473,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  },
+  "utm_medium": {
+    "types": [
+      "boolean",
+      "string"
+    ],
+    "type_distribution": {
+      "boolean": {
+        "count": 10853638,
+        "percentage": 99.17
+      },
+      "string": {
+        "count": 90721,
+        "percentage": 0.83
+      }
+    },
+    "null_count": 68,
+    "non_null_count": 10944359,
+    "total_occurrences": 10944427,
+    "null_percentage": 0.0,
+    "has_mixed_types": true
+  },
+  "utm_source": {
+    "types": [
+      "boolean",
+      "string"
+    ],
+    "type_distribution": {
+      "boolean": {
+        "count": 10856180,
+        "percentage": 99.19
+      },
+      "string": {
+        "count": 88179,
+        "percentage": 0.81
+      }
+    },
+    "null_count": 68,
+    "non_null_count": 10944359,
+    "total_occurrences": 10944427,
+    "null_percentage": 0.0,
+    "has_mixed_types": true
+  },
+  "viewing_product_id": {
+    "types": [
+      "string"
+    ],
+    "type_distribution": {
+      "string": {
+        "count": 1989052,
+        "percentage": 100.0
+      }
+    },
+    "null_count": 0,
+    "non_null_count": 1989052,
+    "total_occurrences": 1989052,
+    "null_percentage": 0.0,
+    "has_mixed_types": false
+  }
+}

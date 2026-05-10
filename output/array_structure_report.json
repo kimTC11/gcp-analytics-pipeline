@@ -1,0 +1,179 @@
+{
+  "cart_products": {
+    "field_path": "cart_products",
+    "array_types": [
+      "array",
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array": {
+        "count": 92714,
+        "percentage": 0.22
+      },
+      "array_of_objects": {
+        "count": 364982,
+        "percentage": 0.88
+      }
+    },
+    "sample_items": [
+      {
+        "product_id": 103324,
+        "amount": 1,
+        "option": [
+          {
+            "option_label": "diamond",
+            "option_id": 261151,
+            "value_label": "Swarovsky Cristall",
+            "value_id": 2166253
+          },
+          {
+            "option_label": "alloy",
+            "option_id": 261154,
+            "value_label": "Weißgold 585",
+            "value_id": 2166328
+          }
+        ]
+      },
+      {
+        "product_id": 96047,
+        "amount": 1,
+        "price": "880.00",
+        "currency": "£",
+        "option": [
+          {
+            "option_label": "alloy",
+            "option_id": 152820,
+            "value_label": "Weißgold 585",
+            "value_id": 1156867
+          }
+        ]
+      },
+      {
+        "product_id": 97471,
+        "option": [
+          {
+            "option_label": "diamond",
+            "option_id": 250775,
+            "value_label": "White Sapphire",
+            "value_id": 2085213
+          },
+          {
+            "option_label": "alloy",
+            "option_id": 250776,
+            "value_label": "Weißgold 585",
+            "value_id": 2085222
+          }
+        ]
+      }
+    ],
+    "is_array_of_objects": true,
+    "nested_fields": [
+      "cart_products.product_id",
+      "cart_products.amount",
+      "cart_products.option",
+      "cart_products.option.option_label",
+      "cart_products.option.option_id",
+      "cart_products.option.value_label",
+      "cart_products.option.value_id",
+      "cart_products.price",
+      "cart_products.currency"
+    ]
+  },
+  "cart_products.option": {
+    "field_path": "cart_products.option",
+    "array_types": [
+      "string",
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array_of_objects": {
+        "count": 342621,
+        "percentage": 0.83
+      },
+      "string": {
+        "count": 22361,
+        "percentage": 0.05
+      }
+    },
+    "sample_items": [
+      {
+        "option_label": "diamond",
+        "option_id": 261151,
+        "value_label": "Swarovsky Cristall",
+        "value_id": 2166253
+      },
+      {
+        "option_label": "alloy",
+        "option_id": 152820,
+        "value_label": "Weißgold 585",
+        "value_id": 1156867
+      },
+      {
+        "option_label": "diamond",
+        "option_id": 250775,
+        "value_label": "White Sapphire",
+        "value_id": 2085213
+      }
+    ],
+    "is_array_of_objects": true,
+    "nested_fields": [
+      "cart_products.option.option_label",
+      "cart_products.option.option_id",
+      "cart_products.option.value_label",
+      "cart_products.option.value_id"
+    ]
+  },
+  "option": {
+    "field_path": "option",
+    "array_types": [
+      "array_of_objects"
+    ],
+    "type_distribution": {
+      "array_of_objects": {
+        "count": 22208495,
+        "percentage": 53.6
+      }
+    },
+    "sample_items": [
+      {
+        "option_label": "alloy",
+        "option_id": "332084",
+        "value_label": "",
+        "value_id": "3279318"
+      },
+      {
+        "option_label": "stone/diamonds",
+        "option_id": "57695",
+        "value_label": "diamond-Brillant",
+        "value_id": "308213",
+        "quality": "A",
+        "quality_label": "I"
+      },
+      {
+        "option_label": "alloy",
+        "option_id": "187492",
+        "value_label": "",
+        "value_id": "1488184"
+      }
+    ],
+    "is_array_of_objects": true,
+    "nested_fields": [
+      "option.option_label",
+      "option.option_id",
+      "option.value_label",
+      "option.value_id",
+      "option.alloy",
+      "option.diamond",
+      "option.shapediamond",
+      "option.quality",
+      "option.quality_label",
+      "option.stone",
+      "option.pearlcolor",
+      "option.finish",
+      "option.price",
+      "option.category id",
+      "option.Kollektion",
+      "option.kollektion_id"
+    ]
+  }
+}

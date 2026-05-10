@@ -1,0 +1,66 @@
+{
+  "cart_products": {
+    "array": {
+      "count": 92714,
+      "percentage": 20.26
+    },
+    "array_of_objects": {
+      "count": 364982,
+      "percentage": 79.74
+    }
+  },
+  "cart_products.option": {
+    "array_of_objects": {
+      "count": 342621,
+      "percentage": 93.87
+    },
+    "string": {
+      "count": 22361,
+      "percentage": 6.13
+    }
+  },
+  "order_id": {
+    "float": {
+      "count": 9963,
+      "percentage": 8.69
+    },
+    "integer": {
+      "count": 16116,
+      "percentage": 14.06
+    },
+    "string": {
+      "count": 88540,
+      "percentage": 77.25
+    }
+  },
+  "recommendation_product_position": {
+    "integer": {
+      "count": 20128,
+      "percentage": 52.32
+    },
+    "string": {
+      "count": 18344,
+      "percentage": 47.68
+    }
+  },
+  "utm_medium": {
+    "boolean": {
+      "count": 10853638,
+      "percentage": 99.17
+    },
+    "string": {
+      "count": 90721,
+      "percentage": 0.83
+    }
+  },
+  "utm_source": {
+    "boolean": {
+      "count": 10856180,
+      "percentage": 99.19
+    },
+    "string": {
+      "count": 88179,
+      "percentage": 0.81
+    }
+  }
+}
